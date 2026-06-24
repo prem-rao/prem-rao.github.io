@@ -40,10 +40,8 @@ body {
     flex-direction: column;
 
     background: var(--alt-color);
-    width: 20vw;
+    width: 100px;
     min-height: 100vh;
-
-    /* row-gap: 20px; */
 }
 
 li {
