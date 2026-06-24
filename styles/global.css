@@ -88,9 +88,16 @@ body {
 }
 
 .navbar li {
-    align-items: center;
+    align-content: center;
     list-style: none;
     padding: 0.5rem;
     color: var(--text-color);
     font-size: 2.5rem;
+
+    width: 10em;
+
+    display: block;        /* Takes up 100% of the container width */
+    border-bottom: 0.1em solid;
+    border-radius: 0.05em;
+    padding-bottom: 5px;
 }
