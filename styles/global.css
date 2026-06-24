@@ -2,6 +2,8 @@
 :root {
     /* Background color */
     --background-color: #095256;
+    /* Alternative color style */
+    --alt-color: #087f8c
 }
 
 * {
@@ -28,4 +30,21 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+}
+
+/* Sidebar flexbox! */
+/* TODO: For smalls screens, make width 1/3 screen */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--alt-color);
+    width: 20vw;
+    min-height: 100vh;
+
+    /* row-gap: 20px; */
+}
+
+li {
+    padding: 0.5rem 0.1rem 0.5rem 1.5rem
 }
