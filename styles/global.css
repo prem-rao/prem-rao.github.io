@@ -101,3 +101,13 @@ body {
     border-radius: 0.05em;
     padding-bottom: 5px;
 }
+
+.page {
+    color: white;
+    font-size: 2em;
+}
+
+.page p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
